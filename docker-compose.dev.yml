@@ -1,0 +1,9 @@
+# This file overrides docker-compose.yml for a development environment.
+# Delete or rename this file to switch to production environment.
+services:
+  web:
+    image: chigeekgreg/psw-decode:development
+    build:
+      target: development
+    volumes:
+      - ./html:/var/www/html

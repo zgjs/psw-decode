@@ -1,0 +1,9 @@
+version: "2.4"
+services:
+  web:
+    image: chigeekgreg/psw-decode:production
+    build:
+      context: .
+      target: production
+    ports:
+      - "8007:80"

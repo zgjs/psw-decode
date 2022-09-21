@@ -1,0 +1,7 @@
+body { max-width: 960px; margin: auto; }
+@media (prefers-color-scheme: dark) { 
+    body { background: #111; color: #eee; }
+}
+@media (prefers-color-scheme: light) {
+    body{ background: #eee; color: #111; }
+}
